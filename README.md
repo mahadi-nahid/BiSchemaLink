@@ -2,13 +2,15 @@
 
 BiSchemaLink implements a context-aware bidirectional schema linking framework for Text-to-SQL, combining table-first and column-first retrieval to improve schema recall, reduce false positives, and boost execution accuracy on large databases.
 
+
+<image src="Figures/intro.png">
+
+
 ## Abstract
 
 Schema linking -- the process of aligning natural language questions with database schema elements -- is a critical yet underexplored component of Text-to-SQL systems. While recent methods have focused primarily on improving SQL generation, they often neglect the retrieval of relevant schema elements, which can lead to hallucinations and execution failures. In this work, we propose a context-aware bidirectional schema retrieval framework that treats schema linking as a standalone problem. Our approach combines two complementary strategies: table-first retrieval followed by column selection, and column-first retrieval followed by table selection. It is further augmented with techniques such as question decomposition, keyword extraction, and keyphrase extraction. Through comprehensive evaluations on challenging benchmarks such as BIRD and Spider, we demonstrate that our method significantly improves schema recall while reducing false positives. Moreover, SQL generation using our retrieved schema consistently outperforms full-schema baselines and closely approaches oracle performance, all without requiring query refinement. Notably, our method narrows the performance gap between full and perfect schema settings by 50\%. Our findings highlight schema linking as a powerful lever for enhancing Text-to-SQL accuracy and efficiency.
 
 ## Method Overview 
-
-<image src="Figures/intro.png">
 
 <image src="Figures/method.png">
 
