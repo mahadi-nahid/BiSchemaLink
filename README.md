@@ -8,8 +8,9 @@ Schema linking -- the process of aligning natural language questions with databa
 
 ## Method Overview 
 
-![BiSchemaLink Intro](https://github.com/mahadi-nahid/BiSchemaLink/raw/main/Figures/bi-sl-intro-sketch-1.pdf)
-![BiSchemaLink v2](https://github.com/mahadi-nahid/BiSchemaLink/raw/main/Figures/bi-sl-v2-sketch-3.pdf)
+<image src="Figures/intro.png">
+
+<image src="Figures/method.png">
 
 ## Code and Data 
 
